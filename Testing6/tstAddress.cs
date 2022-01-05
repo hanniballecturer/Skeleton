@@ -10,6 +10,7 @@ namespace Testing6
         [TestMethod]
         public void InstanceOK()
         {
+            //some comments
             clsAddress AnAddress = new clsAddress();
             Assert.IsNotNull(AnAddress);
         }
